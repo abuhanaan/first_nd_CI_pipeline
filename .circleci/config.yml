@@ -28,7 +28,7 @@ jobs:
 workflows:
   welcome:
     jobs:
-      - welcome/job
+      - welcome/run
       - print_hello
       - print_world:
           requires:
